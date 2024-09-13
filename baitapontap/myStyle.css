@@ -1,1 +1,17 @@
+table{ 
+    width: 100%; /* Bảng sẽ chiếm toàn bộ chiều ngang */
+    border-collapse:collapse;
+    margin: 0; /* Loại bỏ margin mặc định */
 
+}
+td{
+    border: 1px solid black; /* Đặt đường viền 1px */
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
