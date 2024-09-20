@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Java script</title>
+<script>
+function cong()
+{
+	var a=document.getElementById("txtA").value;
+	var b=document.getElementById("txtB").value;
+	document.getElementById("txtKQ").value=a+b;
+}
+</script>
+<script>
+function Tru()
+{
+	var a=document.getElementById("txt1").value;
+	var b=document.getElementById("txt2").value;
+	document.getElementById("txt3").value=a-b;
+}
+</script>
+<script>
+function nhan()
+{
+	var a=document.getElementById("txta").value;
+	var b=document.getElementById("txtb").value;
+	document.getElementById("txtc").value=a*b;
+}</script>
+<script>
+function chia()
+{
+	var a=document.getElementById("txt4").value;
+	var b=document.getElementById("txt5").value;
+	document.getElementById("txt6").value=a/b;
+}
+</script>
+</head>
+<body>
+<p>Java script</p>
+<p>Tác dụng: làm trang web linh hoạt + có tương tác</p>
+<p>Các phép toán cơ bản</p>
+<p>Phép cộng: <input type="text" id="txtA" name="T2" size="13">&nbsp; +&nbsp; 
+    <input type="text" id="txtB" name="T3" size="14">&nbsp;
+    <input type="button" value=" = " onclick="cong()" >
+    <input type="text" id="txtKQ" name="T6" size="16"> </p>
+
+<p>Phép trừ: <input type="text" id="txt1" name="T2" size="13">&nbsp; -&nbsp; 
+    <input type="text" id="txt2" name="T3" size="14">&nbsp;
+    <input type="button" value=" = " onclick="Tru()" >
+    <input type="text" id="txt3" name="T6" size="16"> </p>
+
+<p>Phép nhân: <input type="text" id="txta" name="T2" size="13">&nbsp; x&nbsp; 
+	<input type="text" id="txtb" name="T3" size="14">&nbsp;
+	<input type="button" value=" = " onclick="nhan()" >
+	<input type="text" id="txtc" name="T6" size="16"> </p>
+
+<p>Phép chia: <input type="text" id="txt4" name="T2" size="13">&nbsp; :&nbsp; 
+	<input type="text" id="txt5" name="T3" size="14">&nbsp;
+	<input type="button" value=" = " onclick="chia()" >
+	<input type="text" id="txt6" name="T6" size="16"> </p>
+
+</body>
+
+</html>
